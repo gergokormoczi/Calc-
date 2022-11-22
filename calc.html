@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Számológép</title>
+    <link rel="stylesheet" href="calc.css" />
+    <script src="calc.js"></script>
+  </head>
+  <body>
+    <div id="main" class="main">
+      <div id="screen" class="screen">
+        <div id="history" class="history">
+          <img
+            src="images\setting.svg"
+            onclick="open_setting()"
+            id="setting_button"
+            class="setting_button"
+          />
+
+          <p id="his_3" class="his_3"></p>
+
+          <p id="his_2" class="his_2"></p>
+
+          <p id="his_1" class="his_1"></p>
+        </div>
+
+        <input class="" type="text" id="szam_1" value="" />
+      </div>
+
+      <div id="board">
+        <div class="center">
+          <p onclick="c()" class="c">C</p>
+
+          <p onclick="adas()" class="gomb_1">+</p>
+
+          <p onclick="vonas()" class="gomb_1">-</p>
+
+          <p onclick="x()" class="gomb_1">x</p>
+        </div>
+
+        <div class="center">
+          <p onclick="one()" class="gomb_1 nums">1</p>
+
+          <p onclick="two()" class="gomb_1 nums">2</p>
+
+          <p onclick="three()" class="gomb_1 nums">3</p>
+
+          <p onclick="oszt()" class="gomb_1">/</p>
+        </div>
+
+        <div class="center">
+          <p onclick="four()" class="gomb_1 nums">4</p>
+
+          <p onclick="five()" class="gomb_1 nums">5</p>
+
+          <p onclick="six()" class="gomb_1 nums">6</p>
+
+          <p onclick="sqrt()" class="gomb_1">√</p>
+        </div>
+
+        <div class="center">
+          <p onclick="seven()" class="gomb_1 nums">7</p>
+
+          <p onclick="eight()" class="gomb_1 nums">8</p>
+
+          <p onclick="nine()" class="gomb_1 nums">9</p>
+
+          <p onclick="pow()" class="gomb_1">^</p>
+        </div>
+
+        <div class="center">
+          <p id="buttons_onboard" onclick="zero()" class="gomb_1 nums">0</p>
+
+          <p onclick="vesszo()" class="gomb_1">,</p>
+
+          <p onclick="start()" class="gomb_1">(</p>
+
+          <p onclick="end()" class="gomb_1">)</p>
+        </div>
+
+        <div class="center">
+          <p onclick="del()" class="gomb_1 del">del</p>
+
+          <p onclick="szazalek()" class="gomb_1">%</p>
+
+          <p onclick="szamolas()" class="szamolas equal">=</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div id="setting_page" class="setting_page">
+        <div style="height: 550px; background-color: #bdcddb">
+          <img
+            src="images\back.svg"
+            id="back"
+            onclick="back()"
+          />
+
+          <div class="setting_element">
+            light mode
+            <img
+              id="light"
+              onclick="light_mode()"
+              class="setting_1"
+              src="images\false.svg"
+            />
+          </div>
+          <div class="setting_element">
+            fancy font
+            <img
+              id="font"
+              onclick="font()"
+              class="setting_2"
+              src="images\false.svg"
+            />
+          </div>
+          <div class="setting_element">
+            calc history
+            <img
+              id="his_img"
+              onclick="history()"
+              class="setting_3"
+              src="images\false.svg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

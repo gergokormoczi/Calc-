@@ -1,0 +1,145 @@
+body {
+  background-color: black;
+  font-family: Arial;
+}
+.main {
+  font-size: 30px;
+  color: aliceblue;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+input {
+  font-size: 43px;
+  height: 70px;
+  float: right;
+  width: 100%;
+  border: 0px;
+  color: aliceblue;
+  border-radius: 3.5px;
+  background-color: gainsboro;
+}
+.history {
+  width: 100%;
+  display: flex;
+  height: 100px;
+}
+.his_1 {
+  margin-left: auto;
+  order: 2;
+  opacity: 80%;
+  font-size: 15px;
+}
+.his_2 {
+  margin-left: auto;
+  order: 2;
+  opacity: 50%;
+  font-size: 15px;
+}
+.his_3 {
+  margin-left: auto;
+  order: 2;
+  opacity: 25%;
+  font-size: 15px;
+}
+.screen {
+  height: 170px;
+}
+#szam_1 {
+  background-color: transparent;
+}
+.center {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gomb_1 {
+  color: white;
+  text-align: center;
+  background-color: rgb(25, 25, 51);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  height: 80px;
+  width: 25%;
+}
+.c {
+  color: white;
+  text-align: center;
+  width: 25%;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  height: 80px;
+}
+
+.equal {
+  color: white;
+  text-align: center;
+  width: 50%;
+  background-color: #01012b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  height: 80px;
+}
+.nums {
+  background-color: rgba(42, 42, 85, 1);
+}
+.del {
+  background-color: rgba(19, 19, 38, 1);
+}
+.szamolas {
+  background-color: rgba(56, 56, 113, 1);
+  float: right;
+}
+#back {
+  float: left;
+  width: 15%;
+}
+.setting_s {
+  font-size: 18px;
+}
+.setting_page {
+  display: none;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+}
+.setting_element {
+  width: 100%;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+img {
+  padding: 5px;
+  width: 60px;
+  height: 45;
+}
+.setting_button {
+  height: 50px;
+  width: 13%;
+}
